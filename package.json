@@ -1,0 +1,30 @@
+{
+  "name": "viajes-app-js-node",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whan05/viajes-app-js-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whan05/viajes-app-js-node/issues"
+  },
+  "homepage": "https://github.com/whan05/viajes-app-js-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
